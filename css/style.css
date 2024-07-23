@@ -515,8 +515,7 @@ h2 {
 .header .img-item img {
     width: 100%; 
     height: 100%; 
-    object-fit: cover;
-    align-items: center; 
+    object-fit: cover; 
 }
 
 .header .img-text {
@@ -2195,94 +2194,19 @@ h2 {
 
 
 /**********************************/
-/****** Register CSS ******/
+/****** Register & Login CSS ******/
 /**********************************/
-body {
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-.container-md {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 500px;
-    animation: fadeIn 1s ease-in-out;
-}
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-.hero-text {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #007bff;
-    margin-bottom: 1.5rem;
-}
-.form-control {
-    border-radius: 30px;
-    padding: 0.75rem 1.25rem;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-.form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-}
-.form-check-input {
-    margin-top: 0.3rem;
-}
-.form-check-label {
-    margin-left: 0.5rem;
-    font-size: 1rem;
-    color: #495057;
-}
-.btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    border-radius: 30px;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
-    transition: all 0.3s ease;
-}
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004085;
-}
-.form-text {
-    font-size: 0.9rem;
-    color: #6c757d;
-}
-@media (max-width: 576px) {
-    .container-md {
-        padding: 1.5rem;
-    }
-    .hero-text {
-        font-size: 2rem;
-    }
-    .btn-primary {
-        font-size: 1rem;
-        padding: 0.5rem 1.25rem;
-    }
+.login {
+    position: relative;
+    padding-top: 30px;
 }
 
-/**********************************/
-/****** Login CSS ******/
-/**********************************/
-
-      .hero-text {
-            text-align: center;
-            color: #333;
-            font-size: 5rem;
-            margin-top: 10vh;
-            font-weight: 100;
-        }
+.login .login-form,
+.login .register-form {
+    padding: 30px;
+    background: #ffffff;
+    margin-bottom: 30px;
+}
 
 
 /**********************************/
