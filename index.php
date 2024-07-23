@@ -24,97 +24,9 @@
     </head>
 
     <body>
-        <!-- Top bar Start -->
-        <div class="top-bar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <i class="fa fa-envelope"></i>
-                        support@email.com
-                    </div>
-                    <div class="col-sm-6">
-                        <i class="fa fa-phone-alt"></i>
-                        077-556-4614
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Top bar End -->
-        
-        <!-- Nav Bar Start -->
-        <div class="nav">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                    <a href="#" class="navbar-brand">MENU</a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto">
-                            <a href="index.php" class="nav-item nav-link active">Home</a>
-                            <a href="product-list.php" class="nav-item nav-link">Products</a>
-                            <a href="product-detail.php" class="nav-item nav-link">Product Detail</a>
-                            <a href="cart.php" class="nav-item nav-link">Cart</a>
-                            <a href="checkout.php" class="nav-item nav-link">Checkout</a>
-                            <a href="my-account.php" class="nav-item nav-link">My Account</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
-                                <div class="dropdown-menu">
-                                    <a href="wishlist.php" class="dropdown-item">Wishlist</a>
-                                    <a href="login.php" class="dropdown-item">Login & Register</a>
-                                    <a href="contact.php" class="dropdown-item">Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="navbar-nav ml-auto">
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
-                                <div class="dropdown-menu">
-                                    <a href="#" class="dropdown-item">Login</a>
-                                    <a href="#" class="dropdown-item">Register</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <!-- Nav Bar End -->      
-        
-        <!-- Bottom Bar Start -->
-        <div class="bottom-bar">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-3">
-                        <div class="logo">
-                            <a href="index.php">
-                                <img src="img/logo.png" alt="Logo">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="search">
-                            <input type="text" placeholder="Search">
-                            <button><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="user">
-                            <a href="wishlist.php" class="btn wishlist">
-                                <i class="fa fa-heart"></i>
-                                <span>(0)</span>
-                            </a>
-                            <a href="cart.php" class="btn cart">
-                                <i class="fa fa-shopping-cart"></i>
-                                <span>(0)</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bottom Bar End -->       
+    <?php
+        include_once('nav-common.php');
+      ?>
         
         <!-- Main Slider Start -->
         <div class="header">
@@ -124,28 +36,28 @@
                         <nav class="navbar bg-light">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>
+                                    <a class="nav-link" href="index.php"><i class="fa fa-home"></i>Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i>Best Selling</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-shopping-bag"></i>Best Selling</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-plus-square"></i>New Arrivals</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-plus-square"></i>New Arrivals</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-female"></i>Fashion & Beauty</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Kids & Babies Clothes</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-child"></i>Kids & Babies Clothes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Electronics & Accessories</a>
+                                    <a class="nav-link" href="product-list.php"><i class="fa fa-microchip"></i>Electronics & Accessories</a>
                                 </li>
                             </ul>
                         </nav>
@@ -153,24 +65,24 @@
                     <div class="col-md-6">
                         <div class="header-slider normal-slider">
                             <div class="header-slider-item">
-                                <img src="img/slider-1.jpg" alt="Slider Image" />
+                                <img src="img/slider1.jpg" alt="Slider Image" />
                                 <div class="header-slider-caption">
-                                    <p>Some text goes here that describes the image</p>
-                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <p>Fashion</p>
+                                    <a class="btn" href="product-list.php"><i class="fa fa-shopping-cart"></i>Shop Now</a>
                                 </div>
                             </div>
                             <div class="header-slider-item">
-                                <img src="img/slider-2.jpg" alt="Slider Image" />
+                                <img src="img/slider2.jpg" alt="Slider Image" />
                                 <div class="header-slider-caption">
-                                    <p>Some text goes here that describes the image</p>
-                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <p>Sale !!</p>
+                                    <a class="btn" href="product-list.php"><i class="fa fa-shopping-cart"></i>Shop Now</a>
                                 </div>
                             </div>
                             <div class="header-slider-item">
-                                <img src="img/slider-3.jpg" alt="Slider Image" />
+                                <img src="img/slider3.jpg" alt="Slider Image" />
                                 <div class="header-slider-caption">
-                                    <p>Some text goes here that describes the image</p>
-                                    <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Shop Now</a>
+                                    <p>Customer Support</p>
+                                    <a class="btn" href="contact.php"><i class="fa fa-shopping-cart"></i>Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -179,14 +91,14 @@
                         <div class="header-img">
                             <div class="img-item">
                                 <img src="img/category-1.jpg" />
-                                <a class="img-text" href="">
-                                    <p>Some text goes here that describes the image</p>
+                                <a class="img-text" href="product-list.php">
+                                    <p>Women's Fashion</p>
                                 </a>
                             </div>
                             <div class="img-item">
                                 <img src="img/category-2.jpg" />
                                 <a class="img-text" href="">
-                                    <p>Some text goes here that describes the image</p>
+                                    <p>Kid"s Fashion</p>
                                 </a>
                             </div>
                         </div>
@@ -220,7 +132,7 @@
                             <i class="fab fa-cc-mastercard"></i>
                             <h2>Secure Payment</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur elit
+                            Secure payments with encryption, monitoring.
                             </p>
                         </div>
                     </div>
@@ -229,7 +141,7 @@
                             <i class="fa fa-truck"></i>
                             <h2>Worldwide Delivery</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur elit
+                            Reliable carriers, customs compliance, tracking.
                             </p>
                         </div>
                     </div>
@@ -238,7 +150,7 @@
                             <i class="fa fa-sync-alt"></i>
                             <h2>90 Days Return</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur elit
+                            90-day return policy, easy refunds.
                             </p>
                         </div>
                     </div>
@@ -247,7 +159,7 @@
                             <i class="fa fa-comments"></i>
                             <h2>24/7 Support</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur elit
+                            Round-the-clock assistance for every need.
                             </p>
                         </div>
                     </div>
@@ -263,44 +175,44 @@
                     <div class="col-md-3">
                         <div class="category-item ch-400">
                             <img src="img/category-3.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name" >
+                                <p>Stylish</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="category-item ch-250">
                             <img src="img/category-4.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name">
+                                <p>Beauty</p>
                             </a>
                         </div>
                         <div class="category-item ch-150">
                             <img src="img/category-5.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name" >
+                                <p>Productive</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="category-item ch-150">
                             <img src="img/category-6.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name">
+                                <p>Self Care</p>
                             </a>
                         </div>
                         <div class="category-item ch-250">
                             <img src="img/category-7.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name">
+                                <p>Technology</p>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="category-item ch-400">
                             <img src="img/category-8.jpg" />
-                            <a class="category-name" href="">
-                                <p>Some text goes here that describes the image</p>
+                            <a class="category-name">
+                                <p>Elegant</p>
                             </a>
                         </div>
                     </div>
@@ -334,7 +246,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Starlight Gown</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -348,21 +260,21 @@
                                     <img src="img/product-1.jpg" alt="Product Image">
                                 </a>
                                 <div class="product-action">
-                                    <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                    <a href="#"><i class="fa fa-heart"></i></a>
+                                    <a href="dbcart.php"><i class="fa fa-cart-plus"></i></a>
+                                    <a href="dbwishlist.php"><i class="fa fa-heart"></i></a>
                                     <a href="#"><i class="fa fa-search"></i></a>
                                 </div>
                             </div>
                             <div class="product-price">
                                 <h3><span>Rs.</span>99</h3>
-                                <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                <a class="btn" href="checkout.php"><i class="fa fa-shopping-cart"></i>Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Eclipse Dress</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -390,7 +302,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Lunar Elegance</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -418,7 +330,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Celestial Blouse</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -446,7 +358,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Urban Denim</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -504,7 +416,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Rustic Rebel</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -532,7 +444,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Velvet Whisper</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -560,7 +472,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Mystic Mesh</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -588,7 +500,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Mystic Mesh</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -616,7 +528,7 @@
                     <div class="col-lg-3">
                         <div class="product-item">
                             <div class="product-title">
-                                <a href="#">Product Name</a>
+                                <a href="#">Opal Overlay</a>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -656,8 +568,8 @@
                                 <img src="img/review-1.jpg" alt="Image">
                             </div>
                             <div class="review-text">
-                                <h2>Customer Name</h2>
-                                <h3>Profession</h3>
+                                <h2>Kelly</h2>
+                                <h3>Customer</h3>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -666,7 +578,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae nunc eget leo finibus luctus et vitae lorem
+                                    "The description and photos were very accurate. I knew exactly what to expect."
                                 </p>
                             </div>
                         </div>
@@ -677,8 +589,8 @@
                                 <img src="img/review-2.jpg" alt="Image">
                             </div>
                             <div class="review-text">
-                                <h2>Customer Name</h2>
-                                <h3>Profession</h3>
+                                <h2>Jhon</h2>
+                                <h3>Customer</h3>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -687,7 +599,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae nunc eget leo finibus luctus et vitae lorem
+                                    "I’m thrilled with my purchase! The dress is beautiful and arrived in just a few days. I’ll definitely be shopping here again."
                                 </p>
                             </div>
                         </div>
@@ -698,8 +610,8 @@
                                 <img src="img/review-3.jpg" alt="Image">
                             </div>
                             <div class="review-text">
-                                <h2>Customer Name</h2>
-                                <h3>Profession</h3>
+                                <h2>Jane</h2>
+                                <h3>Customer</h3>
                                 <div class="ratting">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -708,7 +620,7 @@
                                     <i class="fa fa-star"></i>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae nunc eget leo finibus luctus et vitae lorem
+                                    "My order arrived quickly and was beautifully packaged."
                                 </p>
                             </div>
                         </div>
