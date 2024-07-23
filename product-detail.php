@@ -104,8 +104,8 @@
                                             </div> 
                                         </div>
                                         <div class="action">
-                                            <a class="btn" href="#"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
-                                            <a class="btn" href="#"><i class="fa fa-shopping-bag"></i>Buy Now</a>
+                                            <a class="btn" href="cart.php"><i class="fa fa-shopping-cart"></i>Add to Cart</a>
+                                            <a class="btn" href="checkout.php"><i class="fa fa-shopping-bag"></i>Buy Now</a>
                                         </div>
                                     </div>
                                 </div>

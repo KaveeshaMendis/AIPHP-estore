@@ -57,9 +57,9 @@
                     <div class="col-md-9">
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="dashboard-tab" role="tabpanel" aria-labelledby="dashboard-nav">
-                                <h4>Dashboard</h4>
+                                <h4>Welcome</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque.
+                                Join our community of fashion enthusiasts and stay updated with the latest arrivals, exclusive offers, and style tips by subscribing to our newsletter. Follow us on social media for daily inspiration and behind-the-scenes looks at our collections.Thank you for choosing our store. Happy shopping!
                                 </p> 
                             </div>
                             <div class="tab-pane fade" id="orders-tab" role="tabpanel" aria-labelledby="orders-nav">
