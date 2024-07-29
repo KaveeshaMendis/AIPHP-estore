@@ -692,7 +692,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="payment-security">
-                            <h2>Secured By:</h2>
+                            <h2>Secured with:</h2>
                             <img src="img/godaddy.svg" alt="Payment Security" />
                             <img src="img/norton.svg" alt="Payment Security" />
                             <img src="img/ssl.svg" alt="Payment Security" />
@@ -712,7 +712,7 @@
                     </div>
 
                     <div class="col-md-6 template-by">
-                        <p>Design By <a href=""></a></p>
+                        <p> Design <a href=""></a></p>
                     </div>
                 </div>
             </div>

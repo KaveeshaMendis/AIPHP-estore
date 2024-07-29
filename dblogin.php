@@ -12,7 +12,7 @@ $pass = $_POST['pass'];
 // Handling the Admin Login to Access UsersList.php 
 if ($uname == "admin@gmail.com" && $pass == "admin2024") {
     $_SESSION['adminloggedin'] = true;
-    header('Location: UsersList.php');
+    header('Location: addproduct.php');
     exit();
 }
 

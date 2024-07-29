@@ -62,7 +62,8 @@
                                             <td>
                                                 <div class="img">
                                                     <a href="#"><img src="img/product-1.jpg" alt="Image"></a>
-                                                    <p>Product Name</p>
+                                                    <p>frock
+                                                    </p>
                                                 </div>
                                             </td>
                                             <td>Rs.2600.00</td>
