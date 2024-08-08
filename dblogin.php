@@ -10,13 +10,12 @@ $uname = $_POST['email'];
 $pass = $_POST['pass'];
 
 // Handling the Admin Login to Access UsersList.php 
-if ($uname == "admin@gmail.com" && $pass == "admin2024") {
+if ($uname == "admin@gmail.com" && $pass == "admin123") {
     $_SESSION['adminloggedin'] = true;
-    header('Location: addproduct.php');
+    header('Location: admin/index.php');
     exit();
 }
-
-// Handling the User Login to Access Dashboard.php
+    
 
 // Establish a connection to the database
 $servername = "localhost";
@@ -38,7 +37,7 @@ if ($result->num_rows === 1) {
     if (strtolower($user['password']) === strtolower($pass)) {
         // Redirect to the desired page
         $_SESSION['customerloggedin'] = $uname;
-        header("Location: index.php");
+        header("Location: wishlist.php");
         exit();
     } else {
         // Invalid password

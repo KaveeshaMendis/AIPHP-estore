@@ -1,64 +1,95 @@
 <?php
-// Connect to the database
+session_start();
+// Enable error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Database connection
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "estore";
+$dsn = "mysql:host=$servername;dbname=$dbname";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+try {
+    $pdo = new PDO($dsn, $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo 'Connection failed: ' . $e->getMessage();
+    exit();
 }
 
-// Function to add an item to the cart
-function addToCart($conn, $productId, $quantity) {
-    // Check if the product exists in the database
-    $sql = "SELECT * FROM products WHERE id = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("i", $productId);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    if ($result->num_rows === 0) {
-        return "Product not found";
+// Helper function to calculate the total price
+function calculateTotal($cart) {
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item['price'] * $item['quantity'];
     }
-
-    // Check if the quantity is available
-    $row = $result->fetch_assoc();
-    if ($row["quantity"] < $quantity) {
-        return "Insufficient quantity";
-    }
-
-    // Update the cart table
-    $sql = "INSERT INTO cart (product_id, quantity) VALUES (?, ?) ON DUPLICATE KEY UPDATE quantity = quantity + ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("iii", $productId, $quantity, $quantity);
-    $stmt->execute();
-
-    return "Item added to the cart";
+    return $total;
 }
 
-// Function to get the cart items
-function getCartItems($conn) {
-    // Retrieve the cart items from the database
-    $sql = "SELECT products.id, products.name, products.price, cart.quantity FROM products JOIN cart ON products.id = cart.product_id";
-    $result = $conn->query($sql);
+// Initialize cart if not already in session
+if (!isset($_SESSION['cart'])) {
+    $_SESSION['cart'] = array();
+}
 
-    // Display the cart items
-    if ($result->num_rows > 0) {
-        while($row = $result->fetch_assoc()) {
-            echo "Name: " . $row["name"]. " - Price: $" . $row["price"]. " - Quantity: " . $row["quantity"]. "<br>";
+// Handle cart updates
+if (isset($_POST['update_cart'])) {
+    foreach ($_POST['quantity'] as $productId => $quantity) {
+        if (isset($_SESSION['cart'][$productId])) {
+            $_SESSION['cart'][$productId]['quantity'] = intval($quantity);
         }
-    } else {
-        echo "Cart is empty";
     }
+    header('Location: cart.php');
+    exit();
 }
 
-// Example usage
-$productId = 1;
-$quantity = 2;
-$result = addToCart($conn, $productId, $quantity);
-echo $result;
+// Handle item removal
+if (isset($_POST['remove'])) {
+    foreach ($_POST['remove'] as $productId => $value) {
+        unset($_SESSION['cart'][$productId]);
+    }
+    header('Location: cart.php');
+    exit();
+}
 
-// Get the cart items
-getCartItems($conn);
+// Handle coupon application
+if (isset($_POST['apply_coupon'])) {
+    $couponCode = htmlspecialchars($_POST['coupon_code']); // Sanitize input
+    $stmt = $pdo->prepare("SELECT discount FROM coupons WHERE code = :code");
+    $stmt->execute(['code' => $couponCode]);
+    $coupon = $stmt->fetch();
+    
+    if ($coupon) {
+        $_SESSION['discount'] = $coupon['discount'];
+    } else {
+        $_SESSION['discount'] = 0;
+    }
+    header('Location: cart.php');
+    exit();
+}
+
+// Handle checkout
+if (isset($_POST['checkout'])) {
+    // Logic for checkout (e.g., saving order to database)
+    $_SESSION['cart'] = array();
+    $_SESSION['discount'] = 0;
+    header('Location: checkout.php');
+    exit();
+}
+
+// Calculate cart totals
+$cart = $_SESSION['cart'];
+$cartTotal = calculateTotal($cart);
+$discount = isset($_SESSION['discount']) ? $_SESSION['discount'] : 0;
+$grandTotal = $cartTotal - $discount;
+
+// Output for debugging (remove or comment out in production)
+echo '<pre>';
+print_r($_SESSION['cart']);
+echo 'Total: Rs. ' . $cartTotal;
+echo 'Discount: Rs. ' . $discount;
+echo 'Grand Total: Rs. ' . $grandTotal;
+echo '</pre>';
 ?>

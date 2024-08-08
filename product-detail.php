@@ -49,24 +49,14 @@
                                 <div class="col-md-5">
                                     <div class="product-slider-single normal-slider">
                                         <img src="img/product-1.jpg" alt="Product Image">
-                                        <img src="img/product-3.jpg" alt="Product Image">
-                                        <img src="img/product-5.jpg" alt="Product Image">
-                                        <img src="img/product-7.jpg" alt="Product Image">
-                                        <img src="img/product-9.jpg" alt="Product Image">
-                                        <img src="img/product-10.jpg" alt="Product Image">
                                     </div>
                                     <div class="product-slider-single-nav normal-slider">
                                         <div class="slider-nav-img"><img src="img/product-1.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="img/product-3.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="img/product-5.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="img/product-7.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="img/product-9.jpg" alt="Product Image"></div>
-                                        <div class="slider-nav-img"><img src="img/product-10.jpg" alt="Product Image"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="product-content">
-                                        <div class="title"><h2>Product Name</h2></div>
+                                        <div class="title"><h2>Mystic Meadows</h2></div>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -76,7 +66,7 @@
                                         </div>
                                         <div class="price">
                                             <h4>Price:</h4>
-                                            <p>Rs.99 <span>Rs.149</span></p>
+                                            <p>Rs.2800.00 <span>Rs.3000.00</span></p>
                                         </div>
                                         <div class="quantity">
                                             <h4>Quantity:</h4>
@@ -130,22 +120,21 @@
                                     <div id="description" class="container tab-pane active">
                                         <h4>Product description</h4>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In condimentum quam ac mi viverra dictum. In efficitur ipsum diam, at dignissim lorem tempor in. Vivamus tempor hendrerit finibus. Nulla tristique viverra nisl, sit amet bibendum ante suscipit non. Praesent in faucibus tellus, sed gravida lacus. Vivamus eu diam eros. Aliquam et sapien eget arcu rhoncus scelerisque. Suspendisse sit amet neque neque. Praesent suscipit et magna eu iaculis. Donec arcu libero, commodo ac est a, malesuada finibus dolor. Aenean in ex eu velit semper fermentum. In leo dui, aliquet sit amet eleifend sit amet, varius in turpis. Maecenas fermentum ut ligula at consectetur. Nullam et tortor leo. 
+                                        Embrace the essence of summer with the BellaGrace Floral Summer Frock, a perfect blend of elegance and comfort. This charming frock is designed to keep you cool and stylish on warm days, making it an essential addition to your wardrobe.
                                         </p>
                                     </div>
                                     <div id="specification" class="container tab-pane fade">
                                         <h4>Product specification</h4>
                                         <ul>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
-                                            <li>Lorem ipsum dolor sit amet</li>
+                                            <li>Premium Fabric</li>
+                                            <li>Flattering Fit</li>
+                                            <li>Versatile Style</li>
+                                            <li>Easy Care</li>
                                         </ul>
                                     </div>
                                     <div id="reviews" class="container tab-pane fade">
                                         <div class="reviews-submitted">
-                                            <div class="reviewer">Phasellus Gravida - <span>01 Jan 2020</span></div>
+                                            <div class="reviewer"> Ruby - <span>24 Jan 2024</span></div>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -154,7 +143,7 @@
                                                 <i class="fa fa-star"></i>
                                             </div>
                                             <p>
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                            Imagine a frock so enchanting it feels like it was plucked straight from a storybook! That’s exactly how I felt when I slipped into this magical creation.
                                             </p>
                                         </div>
                                         <div class="reviews-submit">
@@ -195,7 +184,7 @@
                                 <div class="col-lg-3">
                                     <div class="product-item">
                                         <div class="product-title">
-                                            <a href="#">Product Name</a>
+                                            <a href="#">Snow Drift</a>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -215,7 +204,7 @@
                                             </div>
                                         </div>
                                         <div class="product-price">
-                                            <h3><span>Rs.</span>99</h3>
+                                            <h3><span>Rs.</span>3800.00</h3>
                                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                         </div>
                                     </div>
@@ -223,7 +212,7 @@
                                 <div class="col-lg-3">
                                     <div class="product-item">
                                         <div class="product-title">
-                                            <a href="#">Product Name</a>
+                                            <a href="#">Celestial Charm</a>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -243,7 +232,7 @@
                                             </div>
                                         </div>
                                         <div class="product-price">
-                                            <h3><span>Rs.</span>99</h3>
+                                            <h3><span>Rs.</span>4500.00</h3>
                                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                         </div>
                                     </div>
@@ -251,7 +240,7 @@
                                 <div class="col-lg-3">
                                     <div class="product-item">
                                         <div class="product-title">
-                                            <a href="#">Product Name</a>
+                                            <a href="#">Urban Indigo</a>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -271,7 +260,7 @@
                                             </div>
                                         </div>
                                         <div class="product-price">
-                                            <h3><span>Rs.</span>99</h3>
+                                            <h3><span>Rs.</span>8500.00</h3>
                                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                         </div>
                                     </div>
@@ -279,7 +268,7 @@
                                 <div class="col-lg-3">
                                     <div class="product-item">
                                         <div class="product-title">
-                                            <a href="#">Product Name</a>
+                                            <a href="#">Serene Satin</a>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -299,7 +288,7 @@
                                             </div>
                                         </div>
                                         <div class="product-price">
-                                            <h3><span>Rs.</span>99</h3>
+                                            <h3><span>Rs.</span>2800.00</h3>
                                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                         </div>
                                     </div>
@@ -307,7 +296,7 @@
                                 <div class="col-lg-3">
                                     <div class="product-item">
                                         <div class="product-title">
-                                            <a href="#">Product Name</a>
+                                            <a href="#">Ethereal Envy</a>
                                             <div class="ratting">
                                                 <i class="fa fa-star"></i>
                                                 <i class="fa fa-star"></i>
@@ -327,7 +316,7 @@
                                             </div>
                                         </div>
                                         <div class="product-price">
-                                            <h3><span>Rs.</span>99</h3>
+                                            <h3><span>Rs.</span>1500.00</h3>
                                             <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                         </div>
                                     </div>
@@ -365,7 +354,7 @@
                             <div class="sidebar-slider normal-slider">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Luxe Lace</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -385,13 +374,13 @@
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>4300.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Celestial Charm</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -411,13 +400,13 @@
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>4500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Bohemian Bliss</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -437,7 +426,7 @@
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>5400.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -447,29 +436,28 @@
                         <div class="sidebar-widget brands">
                             <h2 class="title">Our Brands</h2>
                             <ul>
-                                <li><a href="#">Nulla </a><span>(45)</span></li>
-                                <li><a href="#">Curabitur </a><span>(34)</span></li>
-                                <li><a href="#">Nunc </a><span>(67)</span></li>
-                                <li><a href="#">Ullamcorper</a><span>(74)</span></li>
-                                <li><a href="#">Fusce </a><span>(89)</span></li>
-                                <li><a href="#">Sagittis</a><span>(28)</span></li>
+                                <li><a href="#">Elysian Threads </a><span>(45)</span></li>
+                                <li><a href="#">LuxeLoom </a><span>(34)</span></li>
+                                <li><a href="#">ChicBloom </a><span>(67)</span></li>
+                                <li><a href="#">VividAura</a><span>(74)</span></li>
+                                <li><a href="#">Evoke Elegance </a><span>(89)</span></li>
+                                <li><a href="#">Summerset Couture</a><span>(28)</span></li>
                             </ul>
                         </div>
                         
                         <div class="sidebar-widget tag">
-                            <h2 class="title">Tags Cloud</h2>
-                            <a href="#">Lorem ipsum</a>
-                            <a href="#">Vivamus</a>
-                            <a href="#">Phasellus</a>
-                            <a href="#">pulvinar</a>
-                            <a href="#">Curabitur</a>
-                            <a href="#">Fusce</a>
-                            <a href="#">Sem quis</a>
+                            <h2 class="title">Tags </h2>
+                            <a href="#">Summer Dress</a>
+                            <a href="#">Casual Wear</a>
+                            <a href="#">Women’s Fashion</a>
+                            <a href="#">Lightweight Fabric</a>
+                            <a href="#">Garden Party</a>
+                            <a href="#">Versatile Dress</a>
+                            <a href="#">Stylish Frock</a>
                             <a href="#">Mollis metus</a>
-                            <a href="#">Sit amet</a>
-                            <a href="#">Vel posuere</a>
-                            <a href="#">orci luctus</a>
-                            <a href="#">Nam lorem</a>
+                            <a href="#">Easy Care</a>
+                            <a href="#">Seasonal Wardrobe</a>
+                            <a href="#">Beach Outfit</a>                            </a>
                         </div>
                     </div>
                     <!-- Side Bar End -->

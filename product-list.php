@@ -92,7 +92,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Mystic Meadows</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -106,13 +106,13 @@
                                             <img src="img/product-1.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>2800.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -120,7 +120,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Ethereal Envy</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -134,13 +134,13 @@
                                             <img src="img/product-2.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>1500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Dreamy Daisies</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -162,13 +162,13 @@
                                             <img src="img/product-3.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>3999.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Serene Satin</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -190,13 +190,13 @@
                                             <img src="img/product-4.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>2800.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Stonewashed Star</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -218,13 +218,13 @@
                                             <img src="img/product-5.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>9000.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -232,7 +232,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Urban Indigo</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -246,13 +246,13 @@
                                             <img src="img/product-6.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>8500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -260,7 +260,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Luxe Lace</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -274,13 +274,13 @@
                                             <img src="img/product-7.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>4300.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -288,7 +288,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Celestial Charm</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -302,13 +302,13 @@
                                             <img src="img/product-8.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>4500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -316,7 +316,7 @@
                             <div class="col-md-4">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Bohemian Bliss</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -330,13 +330,13 @@
                                             <img src="img/product-9.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>5400.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -391,7 +391,7 @@
                             <div class="sidebar-slider normal-slider">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Casual Charm</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -405,19 +405,19 @@
                                             <img src="img/product-10.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>1500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Urban Uplift</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -431,19 +431,19 @@
                                             <img src="img/product-9.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>5500.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">Product Name</a>
+                                        <a href="#">Whimsical Whisper</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -457,13 +457,13 @@
                                             <img src="img/product-8.jpg" alt="Product Image">
                                         </a>
                                         <div class="product-action">
-                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="cart.php"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="wishlist.php"><i class="fa fa-heart"></i></a>
                                             <a href="#"><i class="fa fa-search"></i></a>
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>Rs.</span>99</h3>
+                                        <h3><span>Rs.</span>4000.00</h3>
                                         <a class="btn" href=""><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
@@ -601,7 +601,7 @@
                     </div>
 
                     <div class="col-md-6 template-by">
-                        <p>Design By <a href=""></a></p>
+                        <p>Design By Kaveesha<a href=""></a></p>
                     </div>
                 </div>
             </div>

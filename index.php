@@ -390,20 +390,36 @@
         
         <!-- Newsletter Start -->
         <div class="newsletter">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1>Subscribe Our Newsletter</h1>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form">
-                            <input type="email" value="Your email here">
-                            <button>Submit</button>
-                        </div>
-                    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Subscribe to Our Newsletter</h1>
+            </div>
+                <div class="col-md-6">
+                    <form action="dbnewsletter.php" method="POST" class="form">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="Your email here" required>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <?php
+
+                        if(isset($_GET['error'])) {
+                            echo('
+                            <div id="alertbox" class="alert alert-danger mt-3" role="alert">
+                                You have already subscribed to our newsletter !
+                            </div>');
+                        }else if(isset($_GET['success'])) {
+                            echo('
+                            <div id="alertbox" class="alert alert-success mt-3" role="alert">
+                                Thank you for subscribing to our newsletter !
+                            </div>');
+                        }
+                        
+                    ?>
                 </div>
             </div>
         </div>
+    </div>
         <!-- Newsletter End -->        
         
         <!-- Recent Product Start -->

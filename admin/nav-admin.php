@@ -26,12 +26,8 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav mr-auto">
-                    <a href="index.php" class="nav-item nav-link <?php if ($current_page == 'index.php') echo 'active'; ?>">Home</a>
-                    <a href="product-list.php" class="nav-item nav-link <?php if ($current_page == 'product-list.php') echo 'active'; ?>">Products</a>
-                    <a href="product-detail.php" class="nav-item nav-link <?php if ($current_page == 'product-detail.php') echo 'active'; ?>">Product Detail</a>
-                    <a href="cart.php" class="nav-item nav-link <?php if ($current_page == 'cart.php') echo 'active'; ?>">Cart</a>
-                    <a href="checkout.php" class="nav-item nav-link <?php if ($current_page == 'checkout.php') echo 'active'; ?>">Checkout</a>
-                    <a href="contact.php" class="nav-item nav-link <?php if ($current_page == 'contact.php') echo 'active'; ?>">Contact Us</a>
+                    <a href="index.php" class="nav-item nav-link <?php if ($current_page == 'index.php') echo 'active'; ?>">Dashboard</a>
+                    <a href="../index.php" class="nav-item nav-link <?php if ($current_page == 'index.php') echo 'active'; ?>">Home</a>
                     </div>
                 </div>
                 <div class="navbar-nav ml-auto">

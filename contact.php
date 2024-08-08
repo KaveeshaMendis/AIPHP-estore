@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>TUTOO's Boutique</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="eCommerce" name="keywords">
-        <meta content="eCommerce" name="description">
+        <meta content="eCommerce, boutique, fashion, online store" name="keywords">
+        <meta content="TUTOO's Boutique offers a wide range of fashion products. Explore our collection and get in touch for more details." name="description">
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -24,9 +24,7 @@
     </head>
 
     <body>
-    <?php
-        include_once('nav-common.php');
-      ?>
+        <?php include_once('nav-common.php'); ?>
         
         <!-- Breadcrumb Start -->
         <div class="breadcrumb-wrap">
@@ -51,11 +49,11 @@
                             <h3><i class="fa fa-envelope"></i>office@example.com</h3>
                             <h3><i class="fa fa-phone"></i>+123-456-7890</h3>
                             <div class="social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -66,32 +64,39 @@
                             <h3><i class="fa fa-envelope"></i>store@example.com</h3>
                             <h3><i class="fa fa-phone"></i>+123-456-7890</h3>
                             <div class="social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="contact-form">
-                            <form>
+                            <form action="dbcontact,php" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <input type="text" class="form-control" placeholder="Your Name" />
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required />
                                     </div>
                                     <div class="col-md-6">
-                                        <input type="email" class="form-control" placeholder="Your Email" />
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required />
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Subject" />
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required />
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" name="message" required></textarea>
                                 </div>
-                                <div><button class="btn" type="submit">Send Message</button></div>
+                                <button class="btn" type="submit">Send Message</button>
+                                <?php
+                                    if(isset($_GET['error'])) {
+                                        echo('<div id="alertbox" class="alert alert-danger mt-3" role="alert">Your message could not be sent!</div>');
+                                    } elseif(isset($_GET['success'])) {
+                                        echo('<div id="alertbox" class="alert alert-success mt-3" role="alert">Thank you for your message!</div>');
+                                    }
+                                ?>
                             </form>
                         </div>
                     </div>
@@ -113,7 +118,7 @@
                         <div class="footer-widget">
                             <h2>Get in Touch</h2>
                             <div class="contact-info">
-                                <p><i class="fa fa-map-marker"></i>My shop, Sri lanka</p>
+                                <p><i class="fa fa-map-marker"></i>My shop, Sri Lanka</p>
                                 <p><i class="fa fa-envelope"></i>email@example.com</p>
                                 <p><i class="fa fa-phone"></i>077-556-4614</p>
                             </div>
@@ -125,11 +130,11 @@
                             <h2>Follow Us</h2>
                             <div class="contact-info">
                                 <div class="social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +146,7 @@
                             <ul>
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -150,7 +155,7 @@
                         <div class="footer-widget">
                             <h2>Purchase Info</h2>
                             <ul>
-                                <li><a href="#">Pyament Policy</a></li>
+                                <li><a href="#">Payment Policy</a></li>
                                 <li><a href="#">Shipping Policy</a></li>
                                 <li><a href="#">Return Policy</a></li>
                             </ul>
@@ -168,9 +173,9 @@
                     <div class="col-md-6">
                         <div class="payment-security">
                             <h2>Secured By:</h2>
-                            <img src="img/godaddy.svg" alt="Payment Security" />
-                            <img src="img/norton.svg" alt="Payment Security" />
-                            <img src="img/ssl.svg" alt="Payment Security" />
+                            <img src="img/godaddy.svg" alt="GoDaddy" />
+                            <img src="img/norton.svg" alt="Norton" />
+                            <img src="img/ssl.svg" alt="SSL" />
                         </div>
                     </div>
                 </div>
@@ -183,11 +188,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 copyright">
-                        <p>Copyright &copy; <a href=""></a>. All Rights Reserved</p>
+                        <p>Copyright &copy; <a href="#">TUTOO's Boutique</a>. All Rights Reserved</p>
                     </div>
 
                     <div class="col-md-6 template-by">
-                        <p>Designed By <a href=""></a></p>
+                        <p>Designed By <a href="#">Your Design Company</a></p>
                     </div>
                 </div>
             </div>
